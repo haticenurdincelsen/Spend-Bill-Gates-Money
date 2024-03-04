@@ -1,0 +1,109 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.product {
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 29%; /* Ürünlerin genişliği */
+  text-align: center;
+  line-height: 30px;
+}
+
+.product img {
+  width: 150px;
+  height: 150px;
+}
+
+.bill {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  height: 50px;
+  background-color: #24C488;
+  font-size: 40px;
+  color: #FFFFFF;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px; /* Ürünler arası boşluk */
+  padding: 15px;
+}
+
+.product .price {
+  font-size: 20px;
+}
+
+.product .actions {
+  display: flex;
+  align-items: center;
+}
+
+.actions button {
+  height: 40px;
+  padding: 0 15px;
+  flex: 1;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.actions button[disabled] {
+  opacity: .4;
+  cursor: not-allowed;
+}
+
+.actions .Buy {
+  background-color: rgb(18, 204, 18);
+  font-weight: bold;
+}
+
+.actions .sell {
+  background-color: rgb(83, 21, 21);
+  font-weight: bold;
+}
+
+.actions .amount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(116, 73, 21);
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 40px;
+  margin: 0 2px;
+}
+
+.total {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0 0 5px 5px;
+  font-size: 24px; /* Yazı boyutu */
+  margin-bottom: 15px;
+  border-top: 1px solid black;
+  padding-top: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: right;
+  padding-bottom: 10px;
+  color: darkgray;
+}
